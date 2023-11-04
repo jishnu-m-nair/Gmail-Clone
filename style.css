@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+i{
+    color: rgb(83, 80, 80);
+}
+
+
+/* header starts */
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    display: flex;
+    z-index: 2;
+    
+}
+.header-1{
+    width: 13%;
+    height: 100%;
+    margin: 0 1%;
+    display: flex;
+    background: aliceblue;
+}
+.header-2{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    background-color: aliceblue;
+}
+.header-3{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    float: left;
+    background-color: aliceblue;
+}
+
+/* header 1 starts */
+
+.header-menu{
+    width: 15%;
+}
+.header-menu i{
+    font-size: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.gmail-logo{
+    width: 50%;
+    display: flex;
+    
+}
+.gmail-logo-icon{
+    width: 50%;
+    float: left;
+}
+.gmail-logo-text{
+    width: 50%;
+    float: left;
+}
+.gmail-logo-text p{
+    padding-left: 15px;
+    font-size: 35px;
+}
+.gmail-logo img{
+    width: 75px;
+}
+.gmail-logo a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header 1 ends */
+
+/* header 2 starts */
+
+.header-2-1{
+    width: 85%;
+    padding-left: 5%;
+}
+.header-2-2{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-icon{
+    border: none;
+    /* position: absolute; */
+    border-radius: 50%;
+    z-index: 2;
+    font-size: 30px;
+    cursor: pointer;
+}
+.form-icon{
+    position: absolute;
+}
+.header-icon i{
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(83, 80, 80);
+}
+.form input{
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    border-radius: 20px;
+    text-indent: 70px;
+    border: none;
+    background-color: rgb(231, 223, 223);
+}
+.search-options{
+    left: 685px;
+}
+.header-icon{
+    background-color: rgb(231, 223, 223);
+}
+.header-icon:hover{
+    background-color: rgb(192, 179, 179);
+}
+
+.icon-other{
+    background-color: aliceblue;
+}
+
+
+/* header 2 ends */
+
+/* header 3 starts */
+
+.header-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-3 img{
+    height: 26px;
+    padding: 10px;
+}
+.j-letter{
+    height: 30px !important;
+}
+
+/* header 3 ends */
+
+/* header ends */
+.main-body{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+}
+
+/* sidebar starts */
+
+.sidebar{
+    width: 18%;
+    height: 100%;
+    position: sticky;
+    top: 74px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+/* compose starts */
+
+.sidebar-compose{
+    width: 100%;
+}
+.sidebar-compose-button{
+    width: 60%;
+    height: 45px;
+    margin: 20px 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    background-color: rgb(170, 245, 220);
+    border-radius: 20px;
+}
+.sidebar-compose-button:hover{
+    background-color: rgb(119, 241, 201);
+    box-shadow: inset -1px -1px 3px 1px rgb(105, 209, 223);
+}
+.sidebar-compose-icon i{
+    font-size: 20px;
+}
+.sidebar-compose-text h2{
+    color: rgb(105, 105, 110);
+}
+
+/* compose ends */
+
+/* menu starts */
+.sidebar-menus{
+    width: 100%;
+}
+.sidebar-menu-options{
+    width: 90%;
+    height: 35px;
+    margin: 0px 5%;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.sidebar-menu-options:hover{
+    background-color: rgb(211, 205, 205);
+}
+.sidebar-menu-options i{
+    margin: 0 20px;
+}
+.sidebar-menu-options h4{
+    color: rgb(71, 69, 69);
+}
+#label-creation{
+    justify-content: space-between;
+    cursor: default;
+    margin-top: 15px;
+}
+#label-creation i{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 7px;
+}
+#label-creation:hover{
+    background-color: aliceblue;
+}
+#label-creation i:hover{
+    background-color: rgb(192, 179, 179);
+}
+
+/* sidebar ends */
+
+/* middle column starts */
+
+.middle{
+    width: 77%;
+    background-color: whitesmoke;
+}
+
+/* main body options starts */
+
+.main-body-options{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+#main-body-options-top{
+    position: sticky;
+    top: 74px;
+    padding: 10px 0px 5px 0px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    z-index: 2;
+}
+.main-body-options-top{
+    width: 20%;
+    display: flex;
+    padding: 0 5px;
+    justify-content: space-evenly;
+}
+.main-body-options-top-left{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    margin: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.main-body-options-top-left:hover{
+    background-color: rgb(192, 179, 179);
+}
+.main-body-options-top-right{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    margin: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.main-body-options-top-right:hover{
+    background-color: rgb(192, 179, 179);
+}
+#page-number{
+    width:70px;
+    border-radius: 15% 15%;
+}
+
+/* main body options ends */
+
+
+/* email section starts */
+
+#email-section{
+    width: 97%;
+    display: flex;
+    justify-content: start;
+}
+.sections{
+    width: 25%;
+    padding: 1%;
+    margin: 0.25%;
+    display: flex;
+    cursor: pointer;
+}
+.section-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.sections i,h4{
+    padding-left: 4%;
+}
+.section-selected{
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgb(16, 124, 231);
+}
+.section-selected i, .section-selected h4{
+    color: rgb(16, 124, 231);
+}
+.email-list{
+    
+    margin-left: 5px;
+    width: 97%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.email-list:hover{
+    box-shadow: inset 0 -1px 0 0 rgba(100,121,143,0.122);
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid black;
+    
+}
+.email-list:hover i{
+    color: black;
+    font-weight: 500;
+}
+.mail-options{
+    width: 2%;
+    padding: 0.5%;
+    margin: 0 1%;
+    border-radius: 100px
+
+}
+.mail-options:hover{
+    background-color: rgb(192, 179, 179);
+}
+.email-list:hover::before{
+    font-family: FontAwesome;
+    content: "\f58e";}
+.mail-sender{
+    width: 16%;
+}
+.mail-info{
+    width: 60%;
+    position: relative;
+}
+.mail-info h4{
+    font-weight: bold;
+}
+.mail-time{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+}
+.mail-description{
+    width: 350px;
+    font-weight: 400;
+    position: absolute;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+/* email section ends */
+
+/* right bar starts */
+
+.right-bar{
+    width: 5%;
+    height: 100%;
+    position:sticky;
+    top: 74px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    height: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.images i{
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50%;   
+}
+.images i:hover, 
+.images img:hover{
+    background-color: rgb(192, 179, 179);
+    cursor: pointer;
+}
+
+/* right bar ends */

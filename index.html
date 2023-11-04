@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gmail Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="gmail-icon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/09d0a4e1ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- header starts -->
+
+    <header class="header">
+        <div class="header">
+            <div class="header-1">
+                <div class="header-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="gmail-logo">
+                    <a href="">
+                        <div class="gmail-logo-icon">
+                            <img src="gmail-logo.png" alt="">    
+                        </div>
+                        <div class="gmail-logo-text">
+                            <p>Gmail</p>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+
+            <div class="header-2">
+                <div class="header-2-1">
+                    <div class="form">
+                        <div class="header-icon form-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" placeholder="Search mail">
+                        <div class="search-options form-icon header-icon ">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-2-2">
+                    <div class="header-icon icon-other">
+                        <i class="fa-regular fa-circle-question"></i>
+                    </div>
+                    <div class="header-icon icon-other">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header-3">
+                <a href="">
+                    <div>
+                        <img src="grid-icon.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div>
+                        <img class="j-letter" src="j-letter.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>           
+    </header>
+
+    <!-- header ends -->
+
+    <!-- sidebar starts -->
+    <div class="main-body">
+        <div class="sidebar">
+            <div class="sidebar-compose">
+                <button class="sidebar-compose-button">
+                    <div class="sidebar-compose-icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                    <div class="sidebar-compose-text">
+                        <h2>Compose</h2>
+                    </div>
+                </button>
+            </div>
+            <div class="sidebar-menus">
+                <div class="sidebar-menu-options">
+                    <i class="fa-solid fa-inbox"></i>
+                    <h4>Inbox</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-regular fa-star"></i>
+                    <h4>Starred</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Snoozed</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <h4>Sent</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-regular fa-note-sticky fa-rotate-180"></i>
+                    <h4>Drafts</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <h4>All Mail</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <h4>Spam</h4>
+                </div>
+                <div class="sidebar-menu-options">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <h4>Less</h4>
+                </div>
+                <div id="label-creation" class="sidebar-menu-options">
+                    <h4>Label</h4>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- side bar ends -->
+
+        <!-- middle column starts -->
+
+        <div class="middle">
+
+            <!-- sticky row starts -->
+
+            <div id="main-body-options-top" class="main-body-options">
+                <div class="main-body-options-top">
+                    <div class="main-body-options-top-left">
+                        <i class="fa-regular fa-square"></i>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="main-body-options-top-left">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div class="main-body-options-top-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div  class="main-body-options-top">
+                    <div id="page-number" class="main-body-options-top-right">
+                        <p>1-42 of 42</p>
+                    </div>
+                    <div class="main-body-options-top-right">
+                        <i class="fa-solid fa-chevron-down fa-rotate-90"></i>
+                    </div>
+                    <div class="main-body-options-top-right">
+                        <i class="fa-solid fa-chevron-down fa-rotate-270"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sticky column ends -->
+
+            <!-- email section starts -->
+
+            <div class="email">
+                <div id="email-section" class="main-body-options">
+                    
+                        <div id="primary-section" class="sections section-selected">
+                            <a class="section-link" href="index.html">
+                                <i class="fa-solid fa-inbox"></i>
+                                <h4>Primary</h4>
+                            </a>
+                        </div>
+                        
+                        <div id="promotions-section" class="sections">
+                            <a class="section-link" href="promotion.html">
+                                <i class="fa-solid fa-tag"></i>
+                                <h4>Promotions</h4>
+                            </a>
+                        </div>
+                    
+                        <div id="social-section" class="sections">
+                            <a class="section-link" href="social.html">
+                                <i class="fa-solid fa-user-group"></i>
+                                <h4>Social</h4>
+                            </a>
+                        </div>
+                
+                </div>
+
+                <!-- email 1 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Youtube</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>New subscriber - <span class="mail-description">Hey you have a new subscriber</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>1 Nov</h4>
+                    </div>
+                </div>
+
+                <!-- email 2 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>LinkedIn</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>TCS job vacancy - <span class="mail-description">TCS is hiring a software developers</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>28 Oct</h4>
+                    </div>
+                </div>
+
+                <!-- email 3 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>LinkedIn</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>AWS Recruiting-<span class="mail-description">AWS is now hiring freshers with good skill in cloud computing.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>24 Oct</h4>
+                    </div>
+                </div>
+
+                <!-- email 4 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Twitter</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>Many new tweets - <span class="mail-description">Since you haven't visited recently there are many new tweets.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>18 Oct</h4>
+                    </div>
+                </div>
+
+                <!-- email 5 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Facebook</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>New posts shared - <span class="mail-description">Many new post after you have visited.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>12 Oct</h4>
+                    </div>
+                </div>
+
+                <!-- email 6 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Instagram</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>Trending Reels  - <span class="mail-description">Take look at these trending reels in India.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>7 Oct</h4>
+                    </div>
+                </div>
+
+                <!-- email 7 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Facebook</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>New friend request - <span class="mail-description">You have a new friend request</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>3 Oct</h4>
+                    </div>
+                </div>
+                
+                <!-- email 8 -->
+                
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Whatsapp</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>Backup pending - <span class="mail-description">You have backup pending</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>29 Sep</h4>
+                    </div>
+                </div>
+                
+                <!-- email 9 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Twitter</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>Many new tweets - <span class="mail-description">Since you haven't visited recently there are many new tweets.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>22 Sep</h4>
+                    </div>
+                </div>
+
+                <!-- email 10 -->
+
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Facebook</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>New Login - <span class="mail-description">Your account is now logined in a new device.</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>17 Sep</h4>
+                    </div>
+                </div>
+                
+                <!-- email 11 -->
+                
+                <div class="main-body-options email-list">
+                    <div class="mail-options mail-check">
+                        <input type="checkbox">
+                    </div>
+                    <div class="mail-options">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="mail-sender">
+                        <h4>Gmail</h4>
+                    </div>
+                    <div class="mail-info">
+                        <h4>Unread Mails - <span class="mail-description">You have many unread mails in your inbox</span></h4>
+                    </div>
+                    <div class="mail-time">
+                        <h4>14 Sep</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- email section ends -->
+
+        <!-- middle row ends -->
+
+        <!-- right bar starts -->
+
+        <div class="right-bar">
+            <div class="images">
+                <img src="google-calendar.png" alt="">
+            </div>
+            <div class="images">
+                <img src="google-keep.png" alt="">
+            </div>
+            <div class="images">
+                <img src="checked.png" alt="">
+            </div>
+            <div class="images">
+                <img src="contacts.png" alt="">
+            </div>
+            <div class="images">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+
+        <!-- right bar ends -->
+
+    </div>
+    
+    <!-- main body ends -->
+
+</body>
+</html>
